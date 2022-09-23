@@ -1,5 +1,0 @@
-# CSE340Proj
-### Write a short description of how the Lexer works in compiler design and the files that were generated when you ran you lexer.
-Lexer is a program that perform Lexical Analysis in compiler design. Lexer takes the modified source code which is in the form of sentences. In this project, I created tokens for "char", "write", "return", ";", ",", ", "=", and {NUMBER}. For instance, if you put the word "return" each respectively, r,e,t,u,r,and n are meaningless. However, "return" becomes meaningful through tokenizer. When this token steps through lexer, it analyzes meaning and returns "return" word. This token is analyzed like {type: , value: "return", child:[]} and transfers to Parser. As I explain, another tokens that I made also step through lexer to analyze and return it.
-
-### Describe the tokens you will need to build a full language (this will be project 2). Make sure to describe theoretical principles, design practices, and implementation strategies of compiler design that you will put into practice.
