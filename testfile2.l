@@ -63,9 +63,7 @@ ws          {delim}+
      printf("%s : COMMA\n", yytext);
     }   //token for "," which is a operator
 
-"." {lines++; chars += strlen(yytext);  //increase the number of lines and chars(the length of words) by getting an input
-     printf("%s : PERIOD\n", yytext);
-    }   //token for "," which is a operator
+
 
 
 {ID}	{words++; chars += strlen(yytext);
@@ -80,7 +78,7 @@ ws          {delim}+
 
 [ \t] {chars++;}
 
-.*  {
+.   {
      printf("Please enter valid input\n");
     }   //Generates lexical errors when there are errors in the code with a simple print statement
 
