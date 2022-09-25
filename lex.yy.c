@@ -13,7 +13,7 @@
 #define FLEX_BETA
 #endif
 
-/* First, we deal with  platform-specific or compiler-specific issues. */
+/* First, we deal with the platform-specific or compiler-specific issues. */
 
 /* begin standard C headers. */
 #include <stdio.h>
@@ -21,9 +21,9 @@
 #include <errno.h>
 #include <stdlib.h>
 
-/* end standard C headers. */
+/* end the standard C headers. */
 
-/* flex integer type definitions */
+/* flex the integer type definitions */
 
 #ifndef FLEXINT_H
 #define FLEXINT_H
@@ -102,7 +102,7 @@ typedef unsigned int flex_uint32_t;
 #define yynoreturn
 #endif
 
-/* Returned upon end-of-file. */
+/* Returned upon the end-of-file. */
 #define YY_NULL 0
 
 /* Promotes a possibly negative, possibly signed char to an
