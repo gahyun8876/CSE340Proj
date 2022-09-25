@@ -4,7 +4,7 @@
 /* Definition section */
 %{
 
-/* Header in the C standard library */
+/* Header in C standard library */
 #include <stdio.h>  
 #include <string.h>
 
